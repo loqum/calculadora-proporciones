@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProporcionComponent implements OnInit {
 
+  getProporcion(value:String) {}
+
+  checkedProperty = true;
+
   constructor() { }
 
   ngOnInit(): void {

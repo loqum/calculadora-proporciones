@@ -1,1 +1,7 @@
-<p>Proporción #</p>
+<p>Proporción 1: {{proporcion.value}}</p>
+<br/>
+<input type="text" #proporcion (keyup)="getProporcion(proporcion.value)">
+<br/>
+<button (click)="proporcion.value = ''" value="Borrar"></button>
+
+<input type="checkbox" [checked]="checkedProperty">
